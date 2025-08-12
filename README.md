@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/intro_image.png" alt="Leetcode Resources" />
+  <img src="images/intro_image.png" alt="Leetcode Resources" width="250" />
 </p>
 
 # Leetcode Resources & Practice
@@ -9,14 +9,13 @@ This repo contains trusted resources to practice Leetcode, as well as my persona
 # How I use the resources
 
 1. Pick language (in my case Python)
-2. If not familiar, **learn basics**: array, lists, hashmaps, trees, sorting, binary search _(Check Pre-Leetcode Folder)_. If not familiar start learning **Big O notation**
-If not
+2. If not familiar, **learn basics**: array, lists, hashmaps, trees, sorting, binary search _(Check Pre-Leetcode Folder)_. If not familiar start learning **Big O notation**.
 3. Follow **Roadmap** in order (ie. neetcode's)
 4. Solve each problem in **25-30 min** (Using Leetcode Timer extension). Just as important, **revisit Big-O**, understand the efficiency of operations for **all** problems.
     > if stuck after 15 min, peek at hints/solutions
     > if unable to understand solution after drawing it, pick an easier problem
     
-    4.1 While understanding concepts or solutions, use **supportive material**: books, yt playlists, and visualization tool for algorithms. As getting more confortable in problem solving, use **pattern resources**.
+    4.1  While understanding concepts or solutions, use **supportive material**: books, yt  playlists, and visualization tool for algorithms. As getting more confortable in problem solving, use **pattern resources**.
 5. Key: **review & redo** problems after a few days (spaced repetition). And keep a **Big O cheat sheet** handy.
 
 ## 💡 Start Here
@@ -25,7 +24,7 @@ If not
 - [How I Mastered DSA](https://blog.algomaster.io/p/how-i-mastered-data-structures-and-algorithms)
 - [15 LeetCode Patterns](https://blog.algomaster.io/p/15-leetcode-patterns)
 
-## LeetCode timer
+## ⏳ LeetCode timer
 
 - [Chrome Extension](https://chromewebstore.google.com/detail/leetcode-timer/gfkgelnlcnomnahkfmhemgpahgmibofd) to time leetcode problem solving.
 
