@@ -24,6 +24,11 @@ This repo contains trusted resources to practice Leetcode, as well as my persona
 - [How I Mastered DSA](https://blog.algomaster.io/p/how-i-mastered-data-structures-and-algorithms)
 - [15 LeetCode Patterns](https://blog.algomaster.io/p/15-leetcode-patterns)
 
+## 👉 Fundamentals
+
+- [Big-O CheatSheet](https://www.bigocheatsheet.com/)
+- [Algorithmic Complexity](https://blog.algomaster.io/p/57bd4963-462f-4294-a972-4012691fc729)
+
 ## ⏳ LeetCode timer
 
 - [Chrome Extension](https://chromewebstore.google.com/detail/leetcode-timer/gfkgelnlcnomnahkfmhemgpahgmibofd) to time leetcode problem solving.
@@ -40,6 +45,11 @@ This repo contains trusted resources to practice Leetcode, as well as my persona
 - [Blind 75](https://neetcode.io/practice?tab=blind75) Neetcode's version. 
 - [Neetcode 150](https://neetcode.io/practice?tab=neetcode150) 150 is the 'Blind 75' + 75 more problems. For people **already familiar** with basic algorithms & data structures.
 - [Neetcode 250](https://neetcode.io/practice?tab=neetcode250) 150 + 100 more problems. Neetcodes most **beginner** friendly list.
+
+## 🔎 CheatSheets
+
+- [Zerotomastery](https://zerotomastery.io/cheatsheets/data-structures-and-algorithms-cheat-sheet/) DSA cheatsheet
+- [Big-O CheatSheet](https://www.bigocheatsheet.com/)
 
 ## 🚀 Patterns
 
