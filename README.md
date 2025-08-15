@@ -6,20 +6,10 @@
 
 This repo contains trusted resources to practice Leetcode, as well as my personal notes + practice exercises.
 
-# How I use the resources
-
-1. Pick language (in my case Python)
-2. If not familiar, **learn basics**: array, lists, hashmaps, trees, sorting, binary search _(Check Pre-Leetcode Folder)_. If not familiar start learning **Big O notation**.
-3. Follow **Roadmap** in order (ie. neetcode's)
-4. Solve each problem in **25-30 min** (Using Leetcode Timer extension). Just as important, **revisit Big-O**, understand the efficiency of operations for **all** problems.
-    > if stuck after 15 min, peek at hints/solutions
-    > if unable to understand solution after drawing it, pick an easier problem
-    
-    4.1  While understanding concepts or solutions, use **supportive material**: books, yt  playlists, and visualization tool for algorithms. As getting more confortable in problem solving, use **pattern resources**.
-5. Key: **review & redo** problems after a few days (spaced repetition). And keep a **Big O cheat sheet** handy.
 
 ## 💡 Start Here
 
+How to use the resources (must read):
 - [How to start Leetcode](https://blog.algomaster.io/p/how-to-start-leetcode-in-2025)
 - [How I Mastered DSA](https://blog.algomaster.io/p/how-i-mastered-data-structures-and-algorithms)
 - [15 LeetCode Patterns](https://blog.algomaster.io/p/15-leetcode-patterns)
@@ -45,6 +35,8 @@ This repo contains trusted resources to practice Leetcode, as well as my persona
 - [Blind 75](https://neetcode.io/practice?tab=blind75) Neetcode's version. 
 - [Neetcode 150](https://neetcode.io/practice?tab=neetcode150) 150 is the 'Blind 75' + 75 more problems. For people **already familiar** with basic algorithms & data structures.
 - [Neetcode 250](https://neetcode.io/practice?tab=neetcode250) 150 + 100 more problems. Neetcodes most **beginner** friendly list.
+- [Top 150 Interview Questions](https://leetcode.com/studyplan/top-interview-150/)
+- [Top 100 liked](https://leetcode.com/studyplan/top-100-liked/)
 
 ## 🔎 CheatSheets
 
