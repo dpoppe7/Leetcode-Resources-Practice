@@ -17,7 +17,7 @@ Each function has:
 # Problem 1: Running Sum
 # -------------------------------
 
-def sum(nums):
+def sum_function(nums):
     """
     Given a one-dimensional array of integers, return an array
     where result[i] = sum(nums[0] ... nums[i]).
@@ -127,12 +127,37 @@ def difference_array(nums):
     - 1 <= len(nums) <= 1000  -> O(n^2) possible, but O(n) with prefix sums better
     """
     # TODO: use prefix sums (efficient)
-    
+    total = sum(nums) # total sum of array
+    left_sum = 0;
+    result = [] 
+
+    for num in nums:
+        right_sum = total - left_sum - num
+        result.append(abs(left_sum - right_sum))
+        left_sum += num
+    return result
 
 # Practice Variations:
 def difference_array_bruteforce(nums):
-    """Do it with nested loops (O(n^2)) for learning purposes."""
-    pass
+    """with nested loops (O(n^2)) for learning purposes."""
+    n = len(nums)
+    res = []
+
+    for i in range(n):
+        # sum left part (0 ... i-1)
+        left_sum = 0
+        for j in range(i):
+            left_sum += nums[j]
+
+        # sum right part (i+1 to n-1)
+        right_sum = 0
+        for j in range(i+1, n):
+            right_sum += nums[j]
+
+        # absolute difference
+        res.append(abs(left_sum - right_sum))
+
+    return res
 
 def difference_array_update(nums, index, new_value):
     """Update nums[index] = new_value and recompute difference array."""
@@ -174,13 +199,13 @@ def count_positive_altitudes(gain):
 if __name__ == "__main__":
     # try filling in your solutions and testing here
     nums = [2, 3, 5, 1, 6]
-    print("Running sum:", sum(nums))  # expected sum
+    print("Running sum:", sum_function(nums))  # expected sum
     nums = [0]
-    print("Running sum:", sum(nums))  # expected sum
+    print("Running sum:", sum_function(nums))  # expected sum
     nums = [-10, -9, 0, 0, 0]
-    print("Running sum:", sum(nums))  # expected sum
+    print("Running sum:", sum_function(nums))  # expected sum
     nums = [-30]
-    print("Running sum:", sum(nums))  # expected sum
+    print("Running sum:", sum_function(nums))  # expected sum
 
     nums = [2, 3, 5, 1, 6]
     print("Sum in place:", sum_inplace(nums)) # return modified array rather than a copy
@@ -200,6 +225,8 @@ if __name__ == "__main__":
 
     nums = [2, 5, 1, 6, 1]
     print("Difference array:", difference_array(nums))  # expected [13, 6, 0, 7, 14]
+    print("Difference array brute-force:", difference_array_bruteforce(nums))  # expected [13, 6, 0, 7, 14]
+
 
     gain = [-5, 1, 5, 0, -7]
     print("Highest altitude:", highest_altitude(gain))  # expected 1

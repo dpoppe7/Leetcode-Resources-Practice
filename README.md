@@ -15,7 +15,8 @@ How to use the resources (must read):
 - [15 LeetCode Patterns](https://blog.algomaster.io/p/15-leetcode-patterns)
 
 ## 👉 Fundamentals
-
+- [Data Structures](https://csdiy.wiki/en/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/CS61B/) UCB class.
+- [DSA For interviews](https://www.designgurus.io/course-play/grokking-data-structures-for-coding-interviews/doc/understanding-data-structures) Concise Content + 4-5 practi problems for each DS.
 - [Big-O CheatSheet](https://www.bigocheatsheet.com/)
 - [Algorithmic Complexity](https://blog.algomaster.io/p/57bd4963-462f-4294-a972-4012691fc729)
 
