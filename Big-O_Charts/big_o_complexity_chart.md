@@ -3,16 +3,27 @@
 ## DATA STRUCTURES COMPLEXITY
 
 ### ARRAYS
+## Definition: 
+A collection of elements stored in contiguous memory locations.
+## Time Complexity:
+
+Access: O(1)
+Search: O(n)
+Insertion: O(n) (worst case), O(1) (end)
+Deletion: O(n) (worst case), O(1) (end)
+
+## Space Complexity: 
+O(n)
 | Operation | Time Complexity | Space Complexity |
 |-----------|----------------|------------------|
-| Access | O(1) | O(1) |
-| Search (unsorted) | O(n) | O(1) |
-| Search (sorted) | O(log n) | O(1) |
-| Insert at end | O(1) amortized | O(1) |
-| Insert at index | O(n) | O(1) |
-| Delete from end | O(1) | O(1) |
-| Delete from index | O(n) | O(1) |
-| Update | O(1) | O(1) |
+| Access | O(1) no iteration | O(1) |
+| Search - Linear (unsorted) | O(n) | O(1) |
+| Search - Binary (sorted) | O(log n) | O(1) |
+| Insert at end | O(1) no shifting | O(1) |
+| Insert at index | O(n) shifting elemetns (right) | O(1) |
+| Delete from end | O(1) no shifting | O(1) |
+| Delete from index | O(n) shifting elements (left) | O(1) |
+| Update | O(1) no shifting | O(1) |
 
 ### LINKED LISTS
 | Operation | Time Complexity | Space Complexity |
@@ -29,6 +40,18 @@
 *O(1) if tail pointer available
 
 ### STACKS
+## Definition: 
+A Last-In-First-Out (LIFO) data structure where elements are added and removed from the same end (top).
+## Time Complexity:
+
+Push: O(1)
+Pop: O(1)
+Peek/Top: O(1)
+Search: O(n)
+
+## Space Complexity: 
+O(n)
+
 | Operation | Time Complexity | Space Complexity |
 |-----------|----------------|------------------|
 | Push | O(1) | O(1) |
