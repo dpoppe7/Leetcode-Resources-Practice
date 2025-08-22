@@ -42,7 +42,10 @@ O(n)
 ### STACKS
 ## Definition: 
 A Last-In-First-Out (LIFO) data structure where elements are added and removed from the same end (top).
+
 ## Time Complexity:
+
+Time depends on how you implement it. It's ok to implement as Dynamic arrays
 
 Push: O(1)
 Pop: O(1)
@@ -54,13 +57,29 @@ O(n)
 
 | Operation | Time Complexity | Space Complexity |
 |-----------|----------------|------------------|
-| Push | O(1) | O(1) |
+| Push/append | O*(1) | O(1) |
 | Pop | O(1) | O(1) |
 | Peek/Top | O(1) | O(1) |
 | isEmpty | O(1) | O(1) |
 | Search | O(n) | O(1) |
 
+*on average
+
 ### QUEUES
+## Definition
+A First-In-First-Out (FIFO) data structure where elements are added at the rear and removed from the front.
+
+## Time Complexity:
+
+Probably implemented as a double-linked list.
+Enqueue: O(1) an append operation 
+Dequeue: O(1) ' Pop'
+Front: O(1)
+Search: O(n)
+
+## Space Complexity: 
+O(n)
+
 | Operation | Time Complexity | Space Complexity |
 |-----------|----------------|------------------|
 | Enqueue | O(1) | O(1) |
