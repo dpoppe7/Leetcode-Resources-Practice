@@ -16,8 +16,12 @@ class Solution:
                 arr[i + zeroes] = arr[i]
                 # This print statement will execute if the condition is met
                 print(f"Swapping from {i} to {i + zeroes}")
+            if arr[i] == 0:
+                zeros -= 1
+                if i + zeroes < n:
+                    arr[i + zeroes] = 0
 
-# This is the correct way to run your code
+
 if __name__ == "__main__":
     solution = Solution()  # Create an instance of the class
     
