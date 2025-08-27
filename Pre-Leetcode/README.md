@@ -10,7 +10,7 @@ Have a basic understanding of these concepts before diving into problems:
 
 ## Contents of this folder:
 
-This folder contains one practices exercises covering:
+This folder contains practices exercises covering:
 
 - **Sorting:** ascending, descending, custom sorts, lambdas, Pythonic tricks  
 - **Python Basics for Interviews:** unpacking, loops, `enumerate`, `zip`, inequality, min/max shortcuts  
@@ -20,14 +20,10 @@ This folder contains one practices exercises covering:
 - **Hashmaps & Hashsets:** basics, `defaultdict`, `Counter`, dictionary comprehensions 
 
 This content is based on Neetcode's ["How to use Neetcode"](https://neetcode.io/courses/lessons/how-to-use-neetcode-effectively) video.
-Topics were extracted from Neetcode's ["Python for coding interviews"](https://neetcode.io/courses) course. Some of the exercises include selections from their **free** content, other exerices were AI-generated problems to replace the "paid" content.
+Topics were extracted from Neetcode's ["Python for coding interviews"](https://neetcode.io/courses) course. Some of the exercises include selections from their **free** "Neetcode's ["Python for coding interviews"](https://neetcode.io/courses)" content, other exercises are from Leetcode's learning lists.
 
 ---
 
-## My Notes 
+## Subfolders
 
-(While completing the exercises from this folder)
-
-Interpreted programming language, ie python, javascript. Code is executed line by line by an interpreter at runtime, usually written in another language. Slower than compiled languages. 
-
-
+Each topic contains (folder) contains a README.md where I listed more *practiced problems from leetcode* per each topic.
