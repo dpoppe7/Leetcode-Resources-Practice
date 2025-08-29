@@ -10,3 +10,9 @@ Source: Leetcode Arrays 101
 - Merge Sorted array
 - Remove Element
 - Remove Duplicates from sorted array
+- Search in Array
+- Check If N and Its Double Exist
+- Valid Mountain Array
+- Replace Elements with Greatest Element on Right Side
+- Move Zeroes
+- Sort Array by Parity
